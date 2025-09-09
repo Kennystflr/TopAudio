@@ -411,6 +411,18 @@
     [
       "0f8c4546-fe83-48ba-bceb-d590a2a5b006",
       "Root"
+    ],
+    [
+      "526408dc-7796-4be9-ba4a-de45ed9194e9",
+      "MCU"
+    ],
+    [
+      "85553576-6302-4376-bfdc-60c3bf9611d5",
+      "Power"
+    ],
+    [
+      "ff1ddce8-9a0b-439a-865c-bfee1d8476ff",
+      "RF sheet"
     ]
   ],
   "text_variables": {}
