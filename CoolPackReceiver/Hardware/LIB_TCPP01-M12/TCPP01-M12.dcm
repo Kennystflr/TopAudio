@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TCPP01-M12
-D USB Type-C and power delivery protection for sink application
-K
-F https://www.st.com/resource/en/datasheet/tcpp01-m12.pdf
-$ENDCMP
-#
-#End Doc Library

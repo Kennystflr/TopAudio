@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP PCM1754DBQR
-D 106-dB SNR stereo audio digital-to-analog converter (DAC) (hardware control)
-K
-F http://www.ti.com/lit/gpn/pcm1754
-$ENDCMP
-#
-#End Doc Library

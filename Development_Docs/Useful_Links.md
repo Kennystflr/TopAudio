@@ -16,7 +16,7 @@ On est sur le LFD2NX-40-7B196I :
 
  ![Map physique du FPGA](image-2.png)
 
- - Bilan de puissance : STM35H562 -> 3.3V@90mA + nRF24L01 -> 3.3V@15mA + DAC -> 5V@25 mA
+ - Bilan de puissance : STM35H562 -> 3.3V@90mA + nRF24L01P -> 3.3V@15mA + DAC -> 5V@25 mA
 
 # Plan d'alimentation 
 On a différents types de banks : 
