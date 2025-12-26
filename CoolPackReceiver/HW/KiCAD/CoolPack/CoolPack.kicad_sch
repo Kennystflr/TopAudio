@@ -2224,6 +2224,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "AUDIO CoDec TLV320DAC3203IYZKR"
+		(exclude_from_sim no)
+		(at 242.316 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5015f40d-a57c-4200-8551-3656ab446ce0")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32U5:STM32U595RJTxQ")
 		(at 154.94 68.58 0)
