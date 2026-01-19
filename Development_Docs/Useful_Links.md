@@ -42,3 +42,5 @@ et d'après **3.4** On a **pas de séquence d'alimenation** à implémenter grac
 
  - [Ecran ePaper](https://www.mouser.fr/ProductDetail/Pervasive-Displays/E2213PS0E1?qs=vvQtp7zwQdOx1l1UOfNs8A%3D%3D)
 
+ - [Application Note Codec](https://www.ti.com/lit/ug/slau434a/slau434a.pdf?ts=1768695361874&ref_url=https%253A%252F%252Fwww.google.com%252F)
+
