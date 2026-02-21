@@ -1,0 +1,1 @@
+create_clock -name {clock_in} -period 50 [get_ports clock_in]

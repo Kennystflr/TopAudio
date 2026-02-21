@@ -19,22 +19,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+			(property "Reference" "AE401"
+				(at 2.54 0.6351 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Value" "Antenna"
-				(at -1.905 0 0)
+				(at 2.54 -1.9049 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.mouser.fr/datasheet/3/184/1/AMCA31_2R450G_S1F_T3.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -100,6 +100,25 @@
 				)
 			)
 			(symbol "Antenna_1_1"
+				(pin no_connect line
+					(at 0 3.81 270)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -1489,16 +1508,6 @@
 		)
 		(uuid "1e0298bb-2f63-4e71-b1e8-0db2870983cf")
 	)
-	(text "Draw Antenna footprint"
-		(exclude_from_sim no)
-		(at 155.448 58.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "74834032-989a-45c8-a016-ac50e7774d84")
-	)
 	(text "trouver la ref de quartz 16MHz\n"
 		(exclude_from_sim no)
 		(at 139.192 96.012 0)
@@ -1745,7 +1754,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 71.12) (xy 154.94 71.12)
+			(xy 144.78 71.12) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2423,6 +2432,16 @@
 		)
 		(uuid "2a98437d-db5f-4a1e-a0e1-77b85691e361")
 	)
+	(label "Antenna_Feed"
+		(at 160.02 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42463e69-bf3f-4ce1-bdcf-e5996aaaef6e")
+	)
 	(label "VDD_PA"
 		(at 105.41 60.96 180)
 		(effects
@@ -3043,7 +3062,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 154.94 66.04 0)
+		(at 162.56 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3052,7 +3071,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b5b689d-0dff-4520-a2af-aadc3ff75b85")
 		(property "Reference" "AE401"
-			(at 157.48 65.4049 0)
+			(at 165.1 65.4049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3080,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 157.48 67.9449 0)
+			(at 165.1 67.9449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,8 +3088,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 66.04 0)
+		(property "Footprint" "Custom:Antenna"
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,8 +3097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/3/184/1/AMCA31_2R450G_S1F_T3.pdf"
-			(at 154.94 66.04 0)
+		(property "Datasheet" "https://www.johansontechnology.com/docs/1501/2450AT14A0100001T_FpfowyN.pdf"
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3107,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 154.94 66.04 0)
+			(at 162.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,6 +3117,9 @@
 		)
 		(pin "1"
 			(uuid "bc283fef-3410-4c9e-a164-67e80e813840")
+		)
+		(pin "1"
+			(uuid "a0448be6-304d-415a-a8cd-39c67e4313e5")
 		)
 		(instances
 			(project "CoolPack"
@@ -4214,7 +4236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:CX3225FB16000B0FZZH1"
 			(at 111.76 96.52 0)
 			(effects
 				(font

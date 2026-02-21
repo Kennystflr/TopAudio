@@ -1,0 +1,5 @@
+#Start recording tcl command: 1/31/2026 20:14:52
+#Project Location: /home/knn64/repos/TopAudio/CoolsTXion/FPGA/sTXion; Project name: sTXion
+prj_open "/home/knn64/repos/TopAudio/CoolsTXion/FPGA/sTXion/sTXion.rdf"
+prj_add_source "/home/knn64/repos/TopAudio/CoolsTXion/FPGA/sTXion/spiControllerbase/spiControllerbase.ipx"
+#Stop recording: 1/31/2026 21:47:08

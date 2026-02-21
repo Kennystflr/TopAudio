@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/30/2026 01:29:39
+#Project Location: /home/knn64/repos/TopAudio/CoolsTXion/FPGA/sTXion; Project name: sTXion
+prj_create -name "sTXion" -impl "impl_1" -dev LFD2NX-40-7BG196I -performance "7_High-Performance_1.0V" -synthesis "synplify"
+prj_add_source "/home/knn64/repos/TopAudio/CoolsTXion/FPGA/sTXion/source/impl_1/impl_1.sdc" "/home/knn64/repos/TopAudio/CoolsTXion/FPGA/sTXion/source/impl_1/impl_1.pdc"
+prj_save 
+prj_close
+#Stop recording: 1/30/2026 01:34:21

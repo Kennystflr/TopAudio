@@ -1,0 +1,668 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1307c404-9d0a-4f38-bf0a-82b5b808cb4a")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 101.6 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f653367-1111-47e9-9e6a-923c7a8b9278")
+	)
+	(junction
+		(at 101.6 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c05075-33b7-4619-a1ca-c0ce47ea2bc8")
+	)
+	(junction
+		(at 113.03 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2436ac76-b5b7-4513-a481-5ca0fdbe8580")
+	)
+	(junction
+		(at 113.03 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "454bec65-445d-4fa6-a0ea-22a7406bfe74")
+	)
+	(junction
+		(at 107.95 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9b09507-a072-4bf7-9aa7-7cecdf4ab2ec")
+	)
+	(junction
+		(at 107.95 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a21cdc-7e9a-4f43-90c1-fa1ca121d29c")
+	)
+	(wire
+		(pts
+			(xy 68.58 115.57) (xy 107.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149982d2-1f87-4d5c-af3b-155a74093b47")
+	)
+	(wire
+		(pts
+			(xy 113.03 118.11) (xy 113.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18720da3-e642-49ed-be6b-f69a1a523548")
+	)
+	(wire
+		(pts
+			(xy 107.95 115.57) (xy 107.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20aba2f1-3cfc-4fa4-88e3-10b90e875093")
+	)
+	(wire
+		(pts
+			(xy 68.58 162.56) (xy 113.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f19ed7-4301-4652-a8cb-a13d8ef49c9a")
+	)
+	(wire
+		(pts
+			(xy 107.95 160.02) (xy 68.58 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f3df1c-a64c-4bd2-91d9-51f727a1b0d1")
+	)
+	(wire
+		(pts
+			(xy 68.58 118.11) (xy 113.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f90c0bb-4065-49c6-ba2f-fa66f95a0343")
+	)
+	(wire
+		(pts
+			(xy 107.95 30.48) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f9899d-2b61-46db-ae09-e86fb2e07c30")
+	)
+	(wire
+		(pts
+			(xy 101.6 113.03) (xy 101.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ceb0c1-3d68-4982-a477-ab462640b8c8")
+	)
+	(wire
+		(pts
+			(xy 113.03 33.02) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c4713d-44a8-467b-9cdd-d5318095571b")
+	)
+	(wire
+		(pts
+			(xy 113.03 33.02) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78794860-4add-46d0-88bd-9d4a94c2b8d6")
+	)
+	(wire
+		(pts
+			(xy 101.6 27.94) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82250dac-6e08-4747-a757-330b7fb2c79d")
+	)
+	(wire
+		(pts
+			(xy 107.95 74.93) (xy 107.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8b4acf-ced6-464e-b681-1178db1141dc")
+	)
+	(wire
+		(pts
+			(xy 68.58 113.03) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fae5822-f4e7-4eef-9f89-277eb8be1f72")
+	)
+	(wire
+		(pts
+			(xy 68.58 30.48) (xy 107.95 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a974884-bf26-4f82-bb5f-780c5b2d5915")
+	)
+	(wire
+		(pts
+			(xy 68.58 27.94) (xy 101.6 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad41ff8a-8619-472d-8178-ef8d1aef6792")
+	)
+	(wire
+		(pts
+			(xy 101.6 72.39) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b254dc-2500-4e54-8100-b1d564e58182")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d470ddbd-e266-4d4f-a820-4fdd802f5af4")
+	)
+	(wire
+		(pts
+			(xy 68.58 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd3db6e-7094-4db1-b6fb-165ea69512d4")
+	)
+	(wire
+		(pts
+			(xy 68.58 72.39) (xy 101.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e481357b-edd8-4131-8604-749ffebec131")
+	)
+	(wire
+		(pts
+			(xy 113.03 77.47) (xy 113.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e991c028-17f0-4989-8ea1-5dbbf5ebc77d")
+	)
+	(wire
+		(pts
+			(xy 101.6 157.48) (xy 68.58 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37977c3-dc81-47e0-9081-620bb23c60ba")
+	)
+	(sheet
+		(at 26.67 22.86)
+		(size 41.91 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bbbd7fd-71b5-44c9-8ca6-5a505e6efd85")
+		(property "Sheetname" "RF1"
+			(at 26.67 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF.kicad_sch"
+			(at 26.67 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nRF_IRQ" input
+			(at 68.58 41.91 0)
+			(uuid "ff25aa10-af15-487e-b711-c1e7ac416353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_MISO" input
+			(at 68.58 30.48 0)
+			(uuid "a8552de4-0a42-4032-904b-3b935d15e161")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_SCK" input
+			(at 68.58 27.94 0)
+			(uuid "1cf14b07-5ab3-4556-a0c6-4216ba6c4cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_nCS" input
+			(at 68.58 35.56 0)
+			(uuid "55c0c2b9-3783-4eea-8dc4-69e2bde69d3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_MOSI" input
+			(at 68.58 33.02 0)
+			(uuid "60f9fe73-71ed-4e8f-846b-88aa753c589f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_CE" input
+			(at 68.58 39.37 0)
+			(uuid "88812f18-c0f3-4a0e-8b31-f6f7ca82fef6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "sTXion"
+				(path "/1307c404-9d0a-4f38-bf0a-82b5b808cb4a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 67.31)
+		(size 41.91 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a3e427b-defd-4845-8b29-0bfc8760b66c")
+		(property "Sheetname" "RF2"
+			(at 26.67 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF.kicad_sch"
+			(at 26.67 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nRF_IRQ" input
+			(at 68.58 86.36 0)
+			(uuid "0573687f-7abf-440f-9014-ade3b9de40cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_MISO" input
+			(at 68.58 74.93 0)
+			(uuid "44929fba-b306-4de5-aa05-20647ac72937")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_SCK" input
+			(at 68.58 72.39 0)
+			(uuid "983d0160-23ab-4970-829a-e0f75244db75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_nCS" input
+			(at 68.58 80.01 0)
+			(uuid "d616b38e-3dc6-400e-b0d0-331b14630336")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_MOSI" input
+			(at 68.58 77.47 0)
+			(uuid "f20d3048-4c70-4d6b-962c-1008211445ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_CE" input
+			(at 68.58 83.82 0)
+			(uuid "463b9298-a45e-40be-9b43-7a94554ace6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "sTXion"
+				(path "/1307c404-9d0a-4f38-bf0a-82b5b808cb4a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 107.95)
+		(size 41.91 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d92e9495-0561-486c-99fd-a873ec04fe1f")
+		(property "Sheetname" "RF3"
+			(at 26.67 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF.kicad_sch"
+			(at 26.67 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nRF_IRQ" input
+			(at 68.58 127 0)
+			(uuid "e32b9b5e-561e-4ab8-86fe-e003a558173a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_MISO" input
+			(at 68.58 115.57 0)
+			(uuid "83ba0347-e998-4250-b8ec-d2a54d4f8202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_SCK" input
+			(at 68.58 113.03 0)
+			(uuid "bb26890a-13b7-4e82-b218-e4c4d872948e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_nCS" input
+			(at 68.58 120.65 0)
+			(uuid "fa3ef44f-686c-4e61-adac-056b55e00360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_MOSI" input
+			(at 68.58 118.11 0)
+			(uuid "2daf0c05-ed1d-4274-a470-914714f82a3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_CE" input
+			(at 68.58 124.46 0)
+			(uuid "ded68a46-5113-4d60-9dfe-8bf1a134e92f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "sTXion"
+				(path "/1307c404-9d0a-4f38-bf0a-82b5b808cb4a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 152.4)
+		(size 41.91 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5241f3d-c1de-4369-900c-d2dfe118da08")
+		(property "Sheetname" "RF4"
+			(at 26.67 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF.kicad_sch"
+			(at 26.67 183.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nRF_IRQ" input
+			(at 68.58 171.45 0)
+			(uuid "0611bc19-1753-4328-9408-bef2eef76076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_MISO" input
+			(at 68.58 160.02 0)
+			(uuid "0fa0d039-a4eb-4b52-b0ae-0b14bb2c194f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_SCK" input
+			(at 68.58 157.48 0)
+			(uuid "1ee6b255-12af-4bb1-82f0-f460887baceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_nCS" input
+			(at 68.58 165.1 0)
+			(uuid "a38901e5-c52c-46f5-89b8-7b51a712f3f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_MOSI" input
+			(at 68.58 162.56 0)
+			(uuid "f170fed5-525d-411c-8302-95e4719278be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_CE" input
+			(at 68.58 168.91 0)
+			(uuid "fa75467b-04a1-4001-9cb6-c86651b321c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "sTXion"
+				(path "/1307c404-9d0a-4f38-bf0a-82b5b808cb4a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

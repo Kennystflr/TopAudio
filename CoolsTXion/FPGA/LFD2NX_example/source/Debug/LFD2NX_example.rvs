@@ -1,0 +1,71 @@
+<Project Name="C:/Users/jmercado/OneDrive - Lattice Semiconductor Corp/Desktop/LFD2NX_example_updated/LFD2NX_example/source/Debug/LFD2NX_example.rvl" Date="2024-09-18" ModBy="Inserter">
+    <Core Name="rr_arbiter_LA0">
+        <Setting>
+            <Capture NumTrigsCap="" SamplesPerTrig="1"/>
+            <Event CntEnableRun="" EventCnt=""/>
+            <TrigSetting PreTrgSamples="" AND_ALL="" TURadix="0" PostTrgSamples=""/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Bus Radix="0" Name="state">
+                    <Sig Name="state:0"/>
+                    <Sig Name="state:1"/>
+                    <Sig Name="state:2"/>
+                </Bus>
+                <Bus Radix="0" Name="next_state">
+                    <Sig Name="next_state:0"/>
+                    <Sig Name="next_state:1"/>
+                    <Sig Name="next_state:2"/>
+                </Bus>
+                <Bus Radix="0" Name="count">
+                    <Sig Name="count:0"/>
+                    <Sig Name="count:1"/>
+                    <Sig Name="count:2"/>
+                    <Sig Name="count:3"/>
+                    <Sig Name="count:4"/>
+                    <Sig Name="count:5"/>
+                    <Sig Name="count:6"/>
+                    <Sig Name="count:7"/>
+                    <Sig Name="count:8"/>
+                    <Sig Name="count:9"/>
+                    <Sig Name="count:10"/>
+                    <Sig Name="count:11"/>
+                    <Sig Name="count:12"/>
+                    <Sig Name="count:13"/>
+                    <Sig Name="count:14"/>
+                    <Sig Name="count:15"/>
+                    <Sig Name="count:16"/>
+                    <Sig Name="count:17"/>
+                    <Sig Name="count:18"/>
+                    <Sig Name="count:19"/>
+                </Bus>
+                <Bus Radix="0" Name="seg_out">
+                    <Sig Name="seg_out:0"/>
+                    <Sig Name="seg_out:1"/>
+                    <Sig Name="seg_out:2"/>
+                    <Sig Name="seg_out:3"/>
+                    <Sig Name="seg_out:4"/>
+                    <Sig Name="seg_out:5"/>
+                    <Sig Name="seg_out:6"/>
+                    <Sig Name="seg_out:7"/>
+                </Bus>
+                <Bus Radix="0" Name="request">
+                    <Sig Name="request:0"/>
+                    <Sig Name="request:1"/>
+                    <Sig Name="request:2"/>
+                    <Sig Name="request:3"/>
+                </Bus>
+                <Bus Radix="0" Name="grant">
+                    <Sig Name="grant:0"/>
+                    <Sig Name="grant:1"/>
+                    <Sig Name="grant:2"/>
+                    <Sig Name="grant:3"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Index="1" Radix="0" Name="TU1" Value="0" Operator="0" ID="1"/>
+                <TE Enable="1" Index="1" Name="TE1" Expression="TU1" ID="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

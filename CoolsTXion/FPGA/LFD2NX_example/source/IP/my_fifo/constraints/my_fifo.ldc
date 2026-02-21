@@ -1,0 +1,33 @@
+set device "LFD2NX-40"
+set device_int "jd5s30"
+set package "CABGA256"
+set package_int "CABGA256"
+set speed "8_High-Performance_1.0V"
+set speed_int "11"
+set operation "Commercial"
+set family "LFD2NX"
+set architecture "jd5s00"
+set partnumber "LFD2NX-40-8BG256C"
+set WRAPPER_INST "lscc_fifo_inst"
+set FAMILY "LFD2NX"
+set ADDRESS_DEPTH 1024
+set DATA_WIDTH 4
+set FIFO_CONTROLLER "FABRIC"
+set FORCE_FAST_CONTROLLER 0
+set FWFT 0
+set IMPLEMENTATION "EBR"
+set ADDRESS_WIDTH 10
+set REGMODE "reg"
+set RESET_MODE "async"
+set ENABLE_ALMOST_FULL_FLAG "TRUE"
+set ALMOST_FULL_ASSERTION "static-dual"
+set ALMOST_FULL_ASSERT_LVL 1023
+set ALMOST_FULL_DEASSERT_LVL 1022
+set ENABLE_ALMOST_EMPTY_FLAG "TRUE"
+set ALMOST_EMPTY_ASSERTION "static-dual"
+set ALMOST_EMPTY_ASSERT_LVL 1
+set ALMOST_EMPTY_DEASSERT_LVL 2
+set ENABLE_DATA_COUNT "FALSE"
+
+
+## Refer to the generated Post-Synthesis constraints at eval/constraint.pdc 

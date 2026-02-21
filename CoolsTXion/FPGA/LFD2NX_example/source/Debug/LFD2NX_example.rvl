@@ -1,0 +1,86 @@
+<Project Name="C:/Users/jmercado/OneDrive - Lattice Semiconductor Corp/Desktop/LFD2NX_example_updated/LFD2NX_example/source/Debug/LFD2NX_example.rvl" Date="2024-09-18" SigType="0" ModBy="Inserter">
+    <IP Version="1_6_042617"/>
+    <Design JTAG="hard" Synthesis="synplify" DeviceName="LFD2NX-40" Stage="presyn" DeviceFamily="LFD2NX" DesignEntry="Schematic/Verilog HDL" DesignName="LFD2NX_example"/>
+    <Core Reveal_sig="577020984" Name="rr_arbiter_LA0" InsertDataset="0" Insert="1" ID="0">
+        <Setting>
+            <Clock SampleEnable="0" EnableClk="" SampleClk="CLK" EnableClk_Pri="0"/>
+            <TraceBuffer IncTrigSig="1" BufferDepth="2048" BitTimeStamp="0" Implementation="0" hasTimeStamp="0"/>
+            <Capture Mode="0" MinSamplesPerTrig="8"/>
+            <Event MaxEventCnt="8" CntEnable="0"/>
+            <TrigOut TrigOutNetType="1" TrigOutNet="reveal_debug_rr_arbiter_LA0_net" Polarity="0" MinPulseWidth="0" EnableTrigOut="0"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Bus Name="state">
+                    <Sig Name="state:0" Type="SIG"/>
+                    <Sig Name="state:1" Type="SIG"/>
+                    <Sig Name="state:2" Type="SIG"/>
+                </Bus>
+                <Bus Name="next_state">
+                    <Sig Name="next_state:0" Type="SIG"/>
+                    <Sig Name="next_state:1" Type="SIG"/>
+                    <Sig Name="next_state:2" Type="SIG"/>
+                </Bus>
+                <Bus Name="count">
+                    <Sig Name="count:0" Type="SIG"/>
+                    <Sig Name="count:1" Type="SIG"/>
+                    <Sig Name="count:2" Type="SIG"/>
+                    <Sig Name="count:3" Type="SIG"/>
+                    <Sig Name="count:4" Type="SIG"/>
+                    <Sig Name="count:5" Type="SIG"/>
+                    <Sig Name="count:6" Type="SIG"/>
+                    <Sig Name="count:7" Type="SIG"/>
+                    <Sig Name="count:8" Type="SIG"/>
+                    <Sig Name="count:9" Type="SIG"/>
+                    <Sig Name="count:10" Type="SIG"/>
+                    <Sig Name="count:11" Type="SIG"/>
+                    <Sig Name="count:12" Type="SIG"/>
+                    <Sig Name="count:13" Type="SIG"/>
+                    <Sig Name="count:14" Type="SIG"/>
+                    <Sig Name="count:15" Type="SIG"/>
+                    <Sig Name="count:16" Type="SIG"/>
+                    <Sig Name="count:17" Type="SIG"/>
+                    <Sig Name="count:18" Type="SIG"/>
+                    <Sig Name="count:19" Type="SIG"/>
+                </Bus>
+                <Bus Name="seg_out">
+                    <Sig Name="seg_out:0" Type="SIG"/>
+                    <Sig Name="seg_out:1" Type="SIG"/>
+                    <Sig Name="seg_out:2" Type="SIG"/>
+                    <Sig Name="seg_out:3" Type="SIG"/>
+                    <Sig Name="seg_out:4" Type="SIG"/>
+                    <Sig Name="seg_out:5" Type="SIG"/>
+                    <Sig Name="seg_out:6" Type="SIG"/>
+                    <Sig Name="seg_out:7" Type="SIG"/>
+                </Bus>
+                <Bus Name="request">
+                    <Sig Name="request:0" Type="SIG"/>
+                    <Sig Name="request:1" Type="SIG"/>
+                    <Sig Name="request:2" Type="SIG"/>
+                    <Sig Name="request:3" Type="SIG"/>
+                </Bus>
+                <Bus Name="grant">
+                    <Sig Name="grant:0" Type="SIG"/>
+                    <Sig Name="grant:1" Type="SIG"/>
+                    <Sig Name="grant:2" Type="SIG"/>
+                    <Sig Name="grant:3" Type="SIG"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU Serialbits="0" Type="0" Sig="fifo_write_en," ID="1"/>
+                <TE MaxSequence="2" ID="1" Resource="0" MaxEvnCnt="1"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+    <ControllerCore Name="top_Controller" Insert="1">
+        <Switch Begin="0x80000000" Width="1" Insert="0"/>
+        <LED Begin="0x80000001" Width="1" Insert="0"/>
+        <Register Begin="0x90000000" AddrWidth="8" End="0x9000FFFF" DataWidth="10" Insert="0"/>
+        <HardIP Size="1">
+            <PLL1 Instance="pll_inst/lscc_pll_inst/gen_no_refclk_mon.u_PLL" Begin="10000000" End="10000035" Type="pll" Insert="1"/>
+        </HardIP>
+        <StatusRegister Begin="0x81001000" End="0x810010f8" Insert="0"/>
+        <ControlRegister Begin="0x81000000" End="0x810000f8" Insert="0"/>
+    </ControllerCore>
+</Project>

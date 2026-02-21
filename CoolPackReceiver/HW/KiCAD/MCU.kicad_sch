@@ -4160,7 +4160,7 @@
 	)
 	(text "SCHOTTKY OR with BUCK 5V"
 		(exclude_from_sim no)
-		(at 195.58 22.098 0)
+		(at 206.248 22.098 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4177,16 +4177,6 @@
 			)
 		)
 		(uuid "8dbbd7d1-dcfd-4bb2-93c5-36b7419b0bd7")
-	)
-	(text "trouver l'empreinte du quartz\n"
-		(exclude_from_sim no)
-		(at 30.48 121.158 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b8ff8adf-2f03-4b22-b3ef-7df3d886ca80")
 	)
 	(text "VDD11 Decoupling"
 		(exclude_from_sim no)
@@ -4229,12 +4219,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17001d27-e8ce-454d-af13-a226d8a6aea5")
-	)
-	(junction
-		(at 215.9 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1713316d-b92a-4349-95a9-e5e31a09bed8")
 	)
 	(junction
 		(at 248.92 73.66)
@@ -4307,12 +4291,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a612059-f0f9-4c48-9e45-d401799438d4")
-	)
-	(junction
-		(at 215.9 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72c18090-3658-4c3f-afb7-980aa5c93faa")
 	)
 	(junction
 		(at 104.14 73.66)
@@ -4570,7 +4548,7 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 78.74) (xy 215.9 78.74)
+			(xy 190.5 78.74) (xy 215.9 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4790,16 +4768,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 44.45) (xy 215.9 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "259f42fa-7947-47b0-a770-2d5f567e3fc0")
-	)
-	(wire
-		(pts
 			(xy 229.87 73.66) (xy 236.22 73.66)
 		)
 		(stroke
@@ -4977,16 +4945,6 @@
 			(type default)
 		)
 		(uuid "3e94170d-dfdd-44ec-9a3d-f20b197a1454")
-	)
-	(polyline
-		(pts
-			(xy 180.34 20.32) (xy 180.34 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3feadc94-1e38-4087-a812-e7198965020e")
 	)
 	(wire
 		(pts
@@ -5420,7 +5378,7 @@
 	)
 	(polyline
 		(pts
-			(xy 278.13 20.32) (xy 180.34 20.32)
+			(xy 278.13 20.32) (xy 190.5 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5650,7 +5608,7 @@
 	)
 	(polyline
 		(pts
-			(xy 180.34 22.86) (xy 180.34 78.74)
+			(xy 190.5 20.32) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5967,16 +5925,6 @@
 			(type default)
 		)
 		(uuid "ebff1eaf-6aaa-4b73-957f-9ba388ecf672")
-	)
-	(wire
-		(pts
-			(xy 218.44 46.99) (xy 215.9 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec721e1a-cf8c-49e7-b3b5-077dbb342ea5")
 	)
 	(wire
 		(pts
@@ -7087,7 +7035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:CX3225FB16000B0FZZH1"
 			(at 44.45 102.87 0)
 			(effects
 				(font

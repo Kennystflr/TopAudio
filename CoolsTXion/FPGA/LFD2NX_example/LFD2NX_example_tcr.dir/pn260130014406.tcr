@@ -1,0 +1,4 @@
+#Start recording tcl command: 1/30/2026 01:34:21
+#Project Location: /home/knn64/repos/TopAudio/CoolsTXion/FPGA/LFD2NX_example; Project name: LFD2NX_example
+prj_archive -dir "/home/knn64/repos/TopAudio/CoolsTXion/FPGA/LFD2NX_example" -extract "/home/knn64/lscc/radiant/2025.2/examples/LFD2NX_example.zip"
+#Stop recording: 1/30/2026 01:44:06

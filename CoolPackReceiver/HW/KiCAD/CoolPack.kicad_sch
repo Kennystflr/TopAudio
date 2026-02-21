@@ -1799,7 +1799,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "check if shotky or is possible between the batt+ and VBUS for LDO supply"
+	(text "check if shottky or is possible between the batt+ and VBUS for LDO supply"
 		(exclude_from_sim no)
 		(at 153.162 50.546 0)
 		(effects

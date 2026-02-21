@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="2024.2.b.19.0" title="LFD2NX_example" device="LFD2NX-40-8BG256C" performance_grade="8_High-Performance_1.0V" family_int="jd5s00" device_int="jd5s30" package_int="CABGA256" operation_int="COM" speed_int="11" default_implementation="impl_1">
+    <Options VerilogStandard="Verilog 2001" hdl_sort="on"/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="rr_arbiter" top="rr_arbiter">
+            <Option name="include path" value=""/>
+        </Options>
+        <Source name="source/RTL/top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="rr_arbiter"/>
+        </Source>
+        <Source name="source/Testbench/rr_arbiter_tb.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly"/>
+        <Source name="source/IP/my_pll/my_pll.ipx" type="IPX_Module" type_short="IPX"/>
+        <Source name="source/IP/my_fifo/my_fifo.ipx" type="IPX_Module" type_short="IPX"/>
+        <Source name="source/Constraints/post_syn.pdc" type="Physical Constraints File" type_short="PDC"/>
+        <Source name="source/Constraints/pre_syn.sdc" type="Pre-Synthesis Constraints File" type_short="SDC"/>
+        <Source name="source/Debug/debug_controller.rva" type="Reveal Analyzer Project File" type_short="RVA"/>
+        <Source name="source/Debug/LFD2NX_example.rvl" type="Reveal" type_short="Reveal"/>
+    </Implementation>
+    <Strategy name="Strategy1" file="LIFCL_example1.sty"/>
+</RadiantProject>

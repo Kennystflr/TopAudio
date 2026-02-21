@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LatticeIPSummary>
+    <IpInfo IP_Module_Name="spiControllerbase" IP_Name="SPI Controller" License_Feature="-" License_Status="-" Vendor="latticesemi.com" Version="2.4.0" Vlnv="latticesemi.com:ip:spi_controller:2.4.0"/>
+</LatticeIPSummary>
